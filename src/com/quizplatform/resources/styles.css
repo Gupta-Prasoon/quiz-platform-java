@@ -1,0 +1,187 @@
+.root
+{
+    -fx-padding: 10;
+    -fx-alignment: center;
+    -fx-background-color: #f0f0f0;
+}
+.label
+{
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.text-field
+{
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+    -fx-pref-width: 200px;
+}
+.text-area 
+{
+    -fx-font-size: 14px;
+    -fx-pref-height: 100px;
+    -fx-wrap-text: true;
+    -fx-padding: 5;
+}
+.button 
+{
+    -fx-font-size: 14px;
+    -fx-padding: 5 10;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+}
+.button:pressed
+{
+    -fx-background-color: #45a049; /* Darker green when pressed */
+}
+#submitButton,
+#finishButton,
+#quizButton
+{
+    -fx-font-weight: bold;
+}
+.result-label
+{
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333; /* Dark gray text color */
+}
+.close-button
+{
+    -fx-font-size: 14px;
+    -fx-padding: 5 10;
+    -fx-background-color: #f44336; /* Red */
+    -fx-text-fill: white;
+}
+.result-layout 
+{
+    -fx-padding: 20;
+    -fx-spacing: 10;
+    -fx-alignment: center;
+    -fx-background-color: #ffffff; /* White background */
+}
+.question-label 
+{
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+.radio-button 
+{
+    -fx-font-size: 14px;
+    -fx-padding: 5;
+}
+.submit-button,
+.finish-button 
+{
+    -fx-font-size: 14px;
+    -fx-padding: 5 10;
+    -fx-background-color: #4CAF50; /* Green */
+    -fx-text-fill: white;
+}
+.submit-button:pressed,
+.finish-button:pressed 
+{
+    -fx-background-color: #45a049; /* Darker green when pressed */
+}
+/* styles.css */
+/* Apply styles to the root node */
+.root 
+{
+    -fx-background-color: #f0f0f0; /* Light gray background */
+}
+/* Apply styles to labels */
+.label 
+{
+    -fx-font-size: 14pt; /* Font size 14pt */
+    -fx-text-fill: #333333; /* Dark gray text color */
+}
+/* Apply styles to text fields */
+.text-field 
+{
+    -fx-font-size: 12pt; /* Font size 12pt */
+    -fx-background-color: #ffffff; /* White background */
+}
+/* Apply styles to buttons */
+.button {
+    -fx-font-size: 12pt; /* Font size 12pt */
+    -fx-background-color: #336699; /* Blue background */
+    -fx-text-fill: white; /* White text color */
+}
+/* Apply styles to radio buttons */
+.radio-button {
+    -fx-font-size: 12pt; /* Font size 12pt */
+    -fx-text-fill: #333333; /* Dark gray text color */
+}
+/* Apply styles to text areas */
+.text-area {
+    -fx-font-size: 12pt; /* Font size 12pt */
+    -fx-background-color: #ffffff; /* White background */
+}
+/* Apply styles to separators */
+.separator {
+    -fx-background-color: #cccccc; /* Light gray background */
+    -fx-padding: 5 0; /* Add padding */
+}
+/* styles.css */
+.label {
+    -fx-font-size: 14pt;
+    -fx-text-fill: #333333;
+}
+.button {
+    -fx-font-size: 12pt;
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+}
+.text-field {
+    -fx-font-size: 12pt;
+}
+/* styles.css */
+/* Apply bold font weight to all labels with the "question-label" class */
+.question-label {
+    -fx-font-weight: bold;
+}
+/* Apply green text color and bold font weight to labels with the "correct-answer-label" class */
+.correct-answer-label {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
+/* Apply red text color and bold font weight to labels with the "incorrect-answer-label" class */
+.incorrect-answer-label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+/* Apply bold font weight to the "thank-you-label" class */
+.thank-you-label {
+    -fx-font-weight: bold;
+}
+/* Apply bold font weight to all buttons */
+.button {
+    -fx-font-weight: bold;
+}
+.button {
+    -fx-font-weight: bold;
+}
+.button {
+    -fx-font-weight: bold;
+}
+.label {
+    -fx-font-weight: bold;
+}
+/* styles.css */
+.question-label {
+    -fx-font-size: 16px; /* Font size for question labels */
+    -fx-padding: 0 0 10px 0; /* Bottom padding for question labels */
+}
+.radio-button {
+    -fx-padding: 5px 0; /* Vertical padding for radio buttons */
+    -fx-font-size: 14px; /* Font size for radio buttons */
+}
+.submit-button, .finish-button {
+    -fx-font-weight: bold; /* Make button text bold */
+    -fx-background-color: #4CAF50; /* Green background color */
+    -fx-text-fill: white; /* White text color */
+    -fx-padding: 5px 10px; /* Padding for buttons */
+    -fx-font-size: 14px; /* Font size for buttons */
+}
+.submit-button:hover, .finish-button:hover {
+    -fx-background-color: #45a049; /* Darker green color on hover */
+}

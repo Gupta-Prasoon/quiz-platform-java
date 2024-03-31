@@ -1,0 +1,22 @@
+/* quizstyles.css */
+.question-label {
+    -fx-font-weight: bold;
+}
+
+.result-label {
+    -fx-font-weight: bold;
+}
+
+.correct-answer-label {
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
+
+.incorrect-answer-label {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+.thank-you-label {
+    -fx-font-weight: bold;
+}
