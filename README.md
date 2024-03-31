@@ -38,7 +38,7 @@ To get a local copy up and running, follow these simple steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your-username/quiz-platform.git
+   git clone [https://github.com/Gupta-Prasoon/quiz-platform-java.git]
 
 1. Open the project in your preferred Java IDE
    
